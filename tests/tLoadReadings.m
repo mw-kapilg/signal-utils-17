@@ -8,7 +8,7 @@ classdef tLoadReadings < matlab.unittest.TestCase
     methods (TestClassSetup)
         function locateData(testCase)
             testCase.DataFile = fullfile(fileparts(mfilename("fullpath")), ...
-                "data", "Readings.csv");
+                "data", "readings.csv");
         end
     end
 
